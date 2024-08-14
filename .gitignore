@@ -1,17 +1,36 @@
+   # Node modules
+   node_modules/
+
+   # Hardhat files
+   cache/
+   artifacts/
+
+   # Secret files
+   .env
+   .secret
+
+   # IDE files
+   .vscode/
+   .idea/
+
+   # Logs
+   *.log
+
+   # Coverage directory used by tools like istanbul
+   coverage/
+
+   # Dependency directories
+   jspm_packages/
+
+   # Optional npm cache directory
+   .npm
+
+   # Optional eslint cache
+   .eslintcache
+
+   # macOS
+   .DS_Store
+
+   # Windows
+   Thumbs.db
 node_modules
-.env
-
-# Hardhat files
-/cache
-/artifacts
-
-# TypeChain files
-/typechain
-/typechain-types
-
-# solidity-coverage files
-/coverage
-/coverage.json
-
-# Hardhat Ignition default folder for deployments against a local node
-ignition/deployments/chain-31337
